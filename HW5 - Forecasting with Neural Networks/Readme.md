@@ -1,4 +1,5 @@
-# Exploring Neural Network Architectures for Advancing and Predicting Chaotic Dynamics in the Lorenz System - Ishan Dane
+# Exploring Neural Network Architectures for Advancing and Predicting Chaotic Dynamics in the Lorenz System 
+# Ishan Dane
 
 ## Sec. I. Abstract:
 
