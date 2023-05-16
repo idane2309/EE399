@@ -1,4 +1,4 @@
-# Exploring Neural Network Architectures for Advancing and Predicting Chaotic Dynamics in the Lorenz System 
+# Exploring Neural Network Architectures for Advancing and Predicting Chaotic Dynamics in the Lorenz System
 # Ishan Dane
 
 ## Sec. I. Abstract:
@@ -396,14 +396,14 @@ Comparing the RNN's loss values to those of the other models, we can see that th
 #### ESN
 The test results for the RNN model in predicting rho = 17 and rho = 35 are shown below:
 ```
-Loss for rho =  17 :  21.916521072387695
-Loss for rho =  35 :  38.415565490722656
+Loss for rho =  17 :  20.919633865356445
+Loss for rho =  35 :  38.054019927978516
 ```
 The Echo State Network (ESN) demonstrates impressive performance in predicting the dynamics of the Lorenz system. 
 
-The obtained loss value of 21.916521072387695 for rho = 17 shows that the model is able to accurately predict the lorenz output for rho = 17 by capturing the underlying patterns of the system. 
+The obtained loss value of 20.919633865356445 for rho = 17 shows that the model is able to accurately predict the lorenz output for rho = 17 by capturing the underlying patterns of the system. 
 
-Furthermore, the loss of 38.415565490722656 for rho = 35 also shows the model’s accuracy in predicting different rho values. The score is a relatively good one, demonstrating the model’s accurate nature. 
+Furthermore, the loss of 38.054019927978516 for rho = 35 also shows the model’s accuracy in predicting different rho values. The score is a relatively good one, demonstrating the model’s accurate nature. 
 
 We can see that the ESN model outperforms all the other models in its prediction of both rho values and does so by a relatively significant margin. 
 
@@ -423,5 +423,3 @@ I then created a RNN model, though capable of capturing temporal dependencies, y
 Finally, I developed the ESN, which stood out as the top performer among all the models. By leveraging a large reservoir of recurrently connected nodes, the ESN effectively captured and amplified the system's temporal dynamics, resulting in the lowest losses and superior predictive accuracy. The ESN emerged as the most effective model for forecasting the dynamics of the Lorenz system. Its unique reservoir computing approach, with its ability to harness temporal dependencies, demonstrates its potential as a powerful tool for time series forecasting and dynamical systems prediction.
 
 Overall, this assignment highlights the importance of choosing appropriate neural network models for capturing and forecasting complex nonlinear systems. The LSTM and ESN models, in particular, showcased their effectiveness in capturing long-term dependencies and accurately predicting the dynamics of the Lorenz system. These findings contribute to the field of dynamical systems prediction and provide valuable insights for future research and applications in various domains.
-
-
