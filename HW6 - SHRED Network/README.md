@@ -182,7 +182,7 @@ To show the difference between the ground truth and reconstruction values, the p
 The graph of the ground truth against the reconstruction values shows a strong similarity. We can see that the reconstruction values is able to accurately capture the trends in the in comparison to the ground truth values, as well as the sudden changes and spike patterns from the sensors.
 
 
-### Do an analysis of the performance as a function of the time lag variable
+### 1. Do an analysis of the performance as a function of the time lag variable
 The graph of the relative error associated with differing time lag variables is shown below:
 
 
@@ -193,7 +193,7 @@ From the graph we can see that overall, as the time lag increases, the relative 
 
 Therefore, we can see that Increasing the time lag reduces the error of the SHRED model as a result of the additional temporal context it provides. The time lag refers to the number of previous time steps or measurements used as input to predict the current time step. By including more past measurements as input, the model gains access to a broader historical context, enabling it to capture more complex temporal patterns and dependencies in the data. Furthermore, increasing the time lag can help in smoothing out the effects of noise or short-term fluctuations in the data as the model can average out noisy or erratic behavior, leading to more stable and robust predictions.
 
-### Do an analysis of the performance as a function of noise (add Gaussian noise to data)
+### 2. Do an analysis of the performance as a function of noise (add Gaussian noise to data)
 The graph of the relative error associated with adding differing noise levels to the data is shown below:
 
 ![Screenshot 2023-05-22 at 11 25 36 PM](https://github.com/idane2309/EE399/assets/122940974/016bae51-55a0-4075-895f-061f143e9c38)
@@ -203,7 +203,7 @@ From the graph, we can see that between a noise level of 0.0 and 0.05, the relat
 
 Increasing the noise level initially can have a regularizing effect on the SHRED model, leading to a reduction in error. Regularization refers to a technique that helps prevent overfitting by introducing controlled amounts of noise or constraints to the model during training. The noise introduces some randomness, making the model more robust and less sensitive to individual data points or outliers. However, as the noise level increases beyond a certain threshold (in this case, 0.05), the noise becomes more disruptive and detrimental to the model's performance, increasing the distortion to the data, causing the error to rise linearly. 
 
-### Do an analysis of the performance as a function of the number of sensors
+### 3. Do an analysis of the performance as a function of the number of sensors
 The graph of the relative error associated with differing the number of sensors is shown below:
 
 ![Screenshot 2023-05-22 at 11 25 54 PM](https://github.com/idane2309/EE399/assets/122940974/b767fa34-e28f-4b14-b14e-8009e3285815)
